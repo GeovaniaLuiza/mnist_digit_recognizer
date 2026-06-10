@@ -62,12 +62,14 @@ Após o treino, será gerado o modelo:
 models/mnist_pytorch.pth
 4. Executar interface de desenho
 python draw_predict.py
+
 ✍️ Como usar
 Abra a interface gráfica
 Desenhe um dígito (0–9) com o mouse
 Clique em Predict
 Veja o resultado da classificação
 Use Clear para limpar a tela
+
 🧠 Como o modelo funciona
 Entrada: imagem 28x28 pixels
 Rede neural MLP (Fully Connected)
@@ -77,16 +79,19 @@ Saída: probabilidades para cada dígito (0 a 9)
 Função de ativação: ReLU
 Otimizador: Adam
 Loss: CrossEntropyLoss
+
 📊 Melhorias possíveis
 Substituir MLP por CNN (maior precisão)
 Mostrar probabilidades de todas as classes
 Adicionar gráfico de confiança
 Centralização automática do dígito
 Versão web (Streamlit ou Flask)
+
 ⚠️ Observações
 O modelo foi treinado com o dataset MNIST (28x28 imagens em escala de cinza)
 A qualidade do desenho influencia diretamente na precisão
 Certifique-se de treinar o modelo antes de usar a interface
+
 📦 Dataset
 MNIST (Kaggle Digit Recognizer):
 https://www.kaggle.com/c/digit-recognizer/data
